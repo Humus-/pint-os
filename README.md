@@ -1,1 +1,3 @@
-# pint-os
+# pintos
+
+currently doing project 1
