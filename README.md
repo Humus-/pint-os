@@ -1,3 +1,3 @@
 # pintos
 
-currently doing project 1
+currently doing project 1:part 1
