@@ -296,8 +296,6 @@ threads_wakeup(int64_t ticks)
 {
   /**/
   struct list_elem * front = list_front(&ticks_wait_list);
-  
-  /*Check if any thread is sleeping or not*/
   if(front==NULL)
      return;
 

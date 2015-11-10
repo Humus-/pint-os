@@ -2,7 +2,8 @@
 #define THREADS_THREAD_H
 
 #include <debug.h>
-#include <list.h>
+//#include <list.h>
+#include <list.c>
 #include <stdint.h>
 
 /* States in a thread's life cycle. */

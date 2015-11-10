@@ -92,6 +92,7 @@ timer_sleep (int64_t ticks)
   int64_t start = timer_ticks ();
 
   ASSERT (intr_get_level () == INTR_ON);
+  printf("YOLO");
 
   /*time till which the thread must wait */
   thread_current()->wakeup_time = start + ticks;
